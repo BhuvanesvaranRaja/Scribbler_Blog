@@ -44,7 +44,7 @@ function AddCmnt() {
         alert("Please add your comment");
     }
     else{
-       // document.getElementById("CommentsArea").style="visibility:visible";
+        
         let FormatComment=`<li class="ListInComments">${Comments}</li>`
         AllComments.innerHTML+=FormatComment;
         YourCmnt.value="";

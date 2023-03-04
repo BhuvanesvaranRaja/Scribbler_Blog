@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 /*  */
 
-/* body{
-    background-image:url("../images/background.jpg");
-    background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-} */
 /* header */
+.title a{
+    text-decoration: none;
+    }
+.title:hover{
+    cursor: pointer;
+}
 .header h2{
     font-family: 'Montez', cursive;
     color: blue;
-    font-size: 34px;
+    font-size: 37px;
     margin: 10px 10px 0px 10px;
  }
 .header h6{
     font-family: 'Ubuntu Mono', monospace;
     margin-left: 10px;
-    color: blueviolet;
-    font-size:15px;
+    color: black;
+    font-size: 15px;
  }
 .header{
     display:flex;
@@ -55,6 +55,10 @@
     font-weight: bold;
     margin-left: 50%;
 }
+.modal-title{
+    border: none;
+}
+    
     /* body */
 #postTitle
 {
