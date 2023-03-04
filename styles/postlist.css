@@ -1,0 +1,150 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+/*  */
+
+body{
+    background-color: #ffeedd;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+/* header */
+.header h2{
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: 40px;
+    margin: 10px 10px 0px 10px;
+ }
+.header h6{
+    font-family: 'Ubuntu Mono', monospace;
+    margin-left: 10px;
+ }
+.header{
+    display:flex;
+    justify-content:space-between;
+} 
+.SignINS{
+    background-color: blue;
+    padding:12px;
+    margin: 10px;
+    color: white;
+    height: 50px;
+    
+    
+}
+.insideCont input{
+    width: 90%;
+    margin: 10px;
+    background-color:ghostwhite;
+    border: none; 
+    padding: auto;   
+}
+.modal-footer button{
+    width: 100%;
+    border-radius:0%;
+    background-color: #5eb762;
+    text-align: center;
+    
+}
+.foot{
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 50%;
+}
+   /*////////////////////// Body/////////////////////////////////////// */
+
+/* del modal */
+.delIcon{
+    color: grey;
+    border: none;
+}
+span .delButtons{
+    height:50px;
+    width:80px;
+    
+}
+#no{
+    background-color:rgb(209,57,57);
+}
+#yes{
+    background-color: #5eb762;
+    
+}
+.Msg-Body{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 500px;
+    background-color:#e8e8e8;
+    padding:10px;
+    
+}
+.posts{
+    
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background: #fff; 
+    box-shadow: 0 4px 10px 0 rgb(17 4 63 / 20%), 0 4px 20px 0 rgb(79 19 97 / 19%);
+    border-radius: 50px;
+
+    margin: 15px 0;
+    border-radius: 15px;
+
+    
+}
+.post-right {
+    height: 100%;
+    color: #000000;
+    border-radius: 0 15px 15px 0;
+    padding: 0 20px;
+}
+.PostLeft{
+    
+        font-weight: bold;
+        color: #707070;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-align: center;
+    
+}
+.RightHeader{
+display: flex;
+justify-content:space-between;
+color: #707070;
+font-size:16px;
+}
+.RightFooter{
+    height: 90px;
+    width: 440px;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+#ViewIcon{
+text-align: end;
+position: relative;
+right:16px;
+color: #707070;
+}
+/* all */
+.AllPosts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.posts:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+} 
+a{
+    color: #707070;
+}
+

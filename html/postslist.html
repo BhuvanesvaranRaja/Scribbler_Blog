@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/postlist.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/872d8060ad.css" crossorigin="anonymous">
+    <title>postlist</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="header">
+        <div class="title">     
+            <h2>ScriBBler</h2>
+            <h6>Explore, Imagine, Create</h6>
+        </div>
+        <!-- sign up -->
+        <div>
+<button type="button" class="SignINS" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title form-control fs-5" id="exampleModalLabel">Get Started</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form>
+      <div class="modal-body">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder="Enter your name" required>
+        <label>Username</label>
+        <input type="text" class="form-control" placeholder="Enter your username" required>
+        <label>Password</label>
+        <input type="password" class="form-control" placeholder="Enter your password" required>
+        <label>Confirm Password</label>
+        <input type="password"class="form-control" placeholder="Re-Enter your password" required>
+      </div>
+    </form>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-success">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- sign in -->
+<button type="button" class="SignINS" data-bs-toggle="modal" data-bs-target="#exampleModal1">Sign In</button>
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Welcome Back!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body insideCont">
+        
+        <label>Username</label>
+        <input type="text"placeholder="Enter your username" required>
+        <label>Password</label>
+        <input type="password"placeholder="Enter your password" required>
+       
+      </div>
+      <div class="modal-footer singInFoot">
+        <button type="button" class="btn btn-success">Sign In</button>
+        <div class="foot">
+        not a member?<span><a href="#"> Sign Up</a></span>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</header>
+<!-- contents -->
+    <!-- list of all posts starts here -->
+    <div class="AllPosts">
+
+        <!-- post 1 starts here -->
+        <div class="posts">
+            <div class="bg-white PostLeft">
+                <p>Srishti Gupta</p>
+            </div>
+
+            <div class="Msg-Body">
+                <div class="PostRight">
+                    <div class="RightHeader">
+                        <div id="headInHead"><p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+                        </div>
+                        <div id="headInHead"><span>
+                            <button type="button" class="btn delIcon" data-bs-toggle="modal" data-bs-target="#DeleteIcon">
+                             <i class="fa-solid fa-trash"></i></button>
+        <!-- Modal -->
+                                <div class="modal fade" id="DeleteIcon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to delete this post?</h1>
+                </div>
+                <div class="modal-footer justify-content-between">
+                  <button type="button" class="btn delButtons" id="yes" data-bs-dismiss="modal">Yes</button>
+                  <button type="button" class="btn delButtons" id="no">No</button>
+                </div>
+              </div>
+            </div>
+                             </div>
+                            </span></div>
+                    
+                </div>
+                    </div>
+                    <div class="RightFooter">
+                        <p>Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
+               
+            </div>
+            <span id="ViewIcon">
+                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <a href="../html/post.html"><i class="fa-solid fa-ellipsis"></i></a>
+            </span>
+                    </div>
+                
+        </div>
+        <!-- post 2 -->
+        <div class="posts">
+            <div class="bg-white PostLeft">
+                <p>Colby Fayock</p>
+            </div>
+
+            <div class="Msg-Body">
+                <div class="PostRight">
+                    <div class="RightHeader">
+                        <div id="headInHead"><p>What is linting and how can it save you time?</p>
+                        </div>
+                        <div id="headInHead"><span>
+                            <button type="button" class="btn delIcon" data-bs-toggle="modal" data-bs-target="#DeleteIcon">
+                             <i class="fa-solid fa-trash"></i></button>
+        <!-- Modal -->
+                                <div class="modal fade" id="DeleteIcon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to delete this post?</h1>
+                </div>
+                <div class="modal-footer justify-content-between">
+                  <button type="button" class="btn delButtons" id="yes" data-bs-dismiss="modal">Yes</button>
+                  <button type="button" class="btn delButtons" id="no">No</button>
+                </div>
+              </div>
+            </div>
+                             </div>
+                            </span></div>
+                    
+                </div>
+                    </div>
+                    <div class="RightFooter">
+                        <p>One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
+               
+            </div>
+            <span id="ViewIcon">
+                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <a href="../html/post.html"><i class="fa-solid fa-ellipsis"></i></a>
+            </span>
+                    </div>
+                
+        </div>
+        <!-- post 3 -->
+        <div class="posts">
+            <div class="bg-white PostLeft">
+                <p>Yazeed Bzadough</p>
+            </div>
+
+            <div class="Msg-Body">
+                <div class="PostRight">
+                    <div class="RightHeader">
+                        <div id="headInHead"><p>How to Get More Views on Your Tech Blog</p>
+                        </div>
+                        <div id="headInHead"><span>
+                            <button type="button" class="btn delIcon" data-bs-toggle="modal" data-bs-target="#DeleteIcon">
+                             <i class="fa-solid fa-trash"></i></button>
+        <!-- Modal -->
+                                <div class="modal fade" id="DeleteIcon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to delete this post?</h1>
+                </div>
+                <div class="modal-footer justify-content-between">
+                  <button type="button" class="btn delButtons" id="yes" data-bs-dismiss="modal">Yes</button>
+                  <button type="button" class="btn delButtons" id="no">No</button>
+                </div>
+              </div>
+            </div>
+                             </div>
+                            </span></div>
+                    
+                </div>
+                    </div>
+                    <div class="RightFooter">
+                        <p>If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
+               
+            </div>
+            <span id="ViewIcon">
+                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <i class="fa-solid fa-ellipsis"></i>
+            </span>
+                    </div>
+                
+        </div>
+        <!-- post 4 -->
+        <div class="posts">
+            <div class="bg-white PostLeft">
+                <p>Cedd Burge</p>
+            </div>
+
+            <div class="Msg-Body">
+                <div class="PostRight">
+                    <div class="RightHeader">
+                        <div id="headInHead"><p>How to write easily describable code</p>
+                        </div>
+                        <div id="headInHead"><span>
+                            <button type="button" class="btn delIcon" data-bs-toggle="modal" data-bs-target="#DeleteIcon">
+                             <i class="fa-solid fa-trash"></i></button>
+        <!-- Modal -->
+                                <div class="modal fade" id="DeleteIcon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to delete this post?</h1>
+                </div>
+                <div class="modal-footer justify-content-between">
+                  <button type="button" class="btn delButtons" id="yes" data-bs-dismiss="modal">Yes</button>
+                  <button type="button" class="btn delButtons" id="no">No</button>
+                </div>
+              </div>
+            </div>
+                             </div>
+                            </span></div>
+                    
+                </div>
+                    </div>
+                    <div class="RightFooter">
+                        <p>When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
+                          leads to confusion when discussing the code.</p>
+               
+            </div>
+            <span id="ViewIcon">
+                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <a href="../html/post.html"><i class="fa-solid fa-ellipsis"></i></a>
+            </span>
+                    </div>
+                
+        </div>
+        <!-- post 5 -->
+        <div class="posts">
+            <div class="bg-white PostLeft">
+                <p>Srishti Gupta</p>
+            </div>
+
+            <div class="Msg-Body">
+                <div class="PostRight">
+                    <div class="RightHeader">
+                        <div id="headInHead"><p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
+                        </div>
+                        <div id="headInHead"><span>
+                            <button type="button" class="btn delIcon" data-bs-toggle="modal" data-bs-target="#DeleteIcon">
+                             <i class="fa-solid fa-trash"></i></button>
+        <!-- Modal -->
+                                <div class="modal fade" id="DeleteIcon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to delete this post?</h1>
+                </div>
+                <div class="modal-footer justify-content-between">
+                  <button type="button" class="btn delButtons" id="yes" data-bs-dismiss="modal">Yes</button>
+                  <button type="button" class="btn delButtons" id="no">No</button>
+                </div>
+              </div>
+            </div>
+                             </div>
+                            </span></div>
+                    
+                </div>
+                    </div>
+                    <div class="RightFooter">
+                        <p>Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+                          named xyz.</p>
+               
+            </div>
+            <span id="ViewIcon">
+                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                <a href="../html/post.html"><i class="fa-solid fa-ellipsis"></i></a>
+            </span>
+                    </div>
+                
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/872d8060ad.js" crossorigin="anonymous"></script>
+</html>

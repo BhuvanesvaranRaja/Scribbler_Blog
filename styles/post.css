@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+/*  */
+
+/* body{
+    background-image:url("../images/background.jpg");
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+} */
+/* header */
+.header h2{
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: 34px;
+    margin: 10px 10px 0px 10px;
+ }
+.header h6{
+    font-family: 'Ubuntu Mono', monospace;
+    margin-left: 10px;
+    color: blueviolet;
+    font-size:15px;
+ }
+.header{
+    display:flex;
+    justify-content:space-between;
+} 
+.SignINS{
+    background-color: blue;
+    padding:12px;
+    margin: 10px;
+    color: white;
+    height: 50px;
+    
+    
+}
+.insideCont input{
+    width: 90%;
+    margin: 10px;
+    background-color:ghostwhite;
+    border: none; 
+    padding: auto;   
+}
+.modal-footer button{
+    width: 100%;
+    border-radius:0%;
+    background-color: #5eb762;
+    text-align: center;
+    
+}
+.foot{
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 50%;
+}
+    /* body */
+#postTitle
+{
+text-align: center;
+margin-top: 20px;
+font-weight: bolder;
+font-size:25px;
+ }
+
+ .AuthorEditContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 15px;
+ }
+.AuthorEditContent span{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .AuthorEditContent button{
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    background: #ed2553;
+    color: #fff;
+    float: right;
+    box-shadow: 0 10px 20px -8px rgb(240 75 113);
+    outline: none;
+    border: none;
+
+ }
+ /* text in content */
+.Post-Content{
+text-align: justify;
+margin-top:60px;
+ }
+ /* likebtn */
+#likesbtn {
+    display: block;
+    width:100px;
+    padding: 10px;
+    cursor: pointer;
+    background: #ed2553;
+    color: #fff;
+    float:left;
+    box-shadow: 0 10px 20px -8px rgb(240 75 113);
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-bottom:10px;
+    
+}
+.likes{
+    display: flex;
+    flex-direction: column;
+    
+}
+#likescnt{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:normal;
+}
+
+/* comments */
+.comments textarea{
+    margin-top: 20px;
+    height: 100px;
+    width: 70%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.comments button{
+    width:100px;
+    padding: 10px;
+    cursor: pointer;
+    background: #ed2553;
+    color: #fff;
+    float:left;
+    box-shadow: 0 10px 20px -8px rgb(240 75 113);
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+/* comment Area */
+.ListInComments{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 0px 20px 20px 10px;
+}
+.CommentsArea{
+    background-color: #e2e4e6;
+    padding: 10px 0;
+    width: 70%;
+    
+}
+.comments p{
+    font-size:20px;
+    font-weight:bolder;
+}
+
+
+
+
+
+
+
